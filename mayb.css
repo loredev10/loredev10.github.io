@@ -1,6 +1,12 @@
+.controller.ps {
+  background: none;
+}
+
 .controller .base,
 .controller .dpad,
 .controller .bumpers,
+.controller .quadrant,
+.controller .abxy,
 .controller .triggers,
 .controller .buttons,
 .controller .arrows,
