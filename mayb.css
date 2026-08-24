@@ -1,0 +1,22 @@
+/* Hide the controller body image but preserve its dimensions for JS scaling */
+.controller .base {
+    opacity: 0 !important;
+}
+
+/* Remove unwanted components from the layout entirely */
+.controller .dpad,
+.controller .bumpers,
+.controller .triggers,
+.controller .buttons,
+.controller .arrows,
+.controller .touchpad {
+    display: none !important;
+}
+
+/* Force sticks and their parent to remain visible */
+.controller,
+.controller .sticks {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
