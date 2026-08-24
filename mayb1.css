@@ -1,0 +1,19 @@
+.controller .base {
+    opacity: 0 !important;
+}
+
+.controller .dpad,
+.controller .bumpers,
+.controller .triggers,
+.controller .buttons,
+.controller .arrows,
+.controller .touchpad {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.controller,
+.controller .sticks {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
