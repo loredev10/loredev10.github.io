@@ -1,8 +1,4 @@
-/* Hide the controller body image but preserve its dimensions for JS scaling */
-.controller .base {
-    opacity: 0 !important;
-}
-
+.controller .base,
 .controller .dpad,
 .controller .bumpers,
 .controller .triggers,
