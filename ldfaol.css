@@ -1,3 +1,16 @@
+html, body {
+    height: 100vh !important;
+    width: 100vw !important;
+}
+
+/* Force the main wrappers to maintain physical space and positioning */
+.controller, .custom, .edit {
+    position: relative !important;
+    min-height: 100vh !important; 
+    min-width: 100vw !important;
+    display: block !important;
+}
+
 body * {
     visibility: hidden;
 }
